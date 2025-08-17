@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-paymob",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A paymob integration for MedusaJS V1",
   "author": "Mohamed Abdelhalim (https://mohamedabdelhalim.vercel.app/)",
   "license": "MIT",

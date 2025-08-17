@@ -530,7 +530,7 @@
     "@babel/helper-create-class-features-plugin" "^7.25.9"
     "@babel/helper-plugin-utils" "^7.25.9"
 
-"@babel/plugin-transform-classes@^7.12.1", "@babel/plugin-transform-classes@^7.25.9", "@babel/plugin-transform-classes@^7.9.5":
+"@babel/plugin-transform-classes@^7.12.1", "@babel/plugin-transform-classes@^7.25.9":
   version "7.25.9"
   resolved "https://registry.npmjs.org/@babel/plugin-transform-classes/-/plugin-transform-classes-7.25.9.tgz"
   integrity sha512-mD8APIXmseE7oZvZgGABDyM34GUmK45Um2TXiBUt7PnuAxrgoSVf123qUzPxEr/+/BHrRn5NMZCdE2m/1F8DGg==
@@ -618,7 +618,7 @@
     "@babel/helper-plugin-utils" "^7.25.9"
     "@babel/traverse" "^7.25.9"
 
-"@babel/plugin-transform-instanceof@^7.12.1", "@babel/plugin-transform-instanceof@^7.8.3":
+"@babel/plugin-transform-instanceof@^7.12.1":
   version "7.25.9"
   resolved "https://registry.npmjs.org/@babel/plugin-transform-instanceof/-/plugin-transform-instanceof-7.25.9.tgz"
   integrity sha512-VqDNoU3+6RYzZ7ks5VlOpHSolZ/2GxemLEOCQY1yUSpLZWh/lNBBrklREE8XKF4r2Qog5jp5N+nmLtEfPKmwPQ==
@@ -1039,7 +1039,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.25.9"
     "@babel/plugin-transform-typescript" "^7.25.9"
 
-"@babel/runtime@^7.12.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.6", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.10", "@babel/runtime@^7.23.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.12.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.6", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.10", "@babel/runtime@^7.23.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.26.0"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.26.0.tgz"
   integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
@@ -1461,10 +1461,10 @@
   resolved "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.4.0.tgz"
   integrity sha512-snKqtPW01tN0ui7yu9rGv69aJXr/a/Ywvl11sUjNtEcRc+ng/mQriFL0wLXMef74iHa/EkftbDzU9F8iFbH+zg==
 
-"@esbuild/linux-x64@0.17.18":
+"@esbuild/darwin-arm64@0.17.18":
   version "0.17.18"
-  resolved "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.17.18.tgz"
-  integrity sha512-66RmRsPlYy4jFl0vG80GcNRdirx4nVWAzJmXkevgphP1qf4dsLQCpSKGM3DUQCojwU1hnepI63gNZdrr02wHUA==
+  resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.17.18.tgz"
+  integrity sha512-6tY+djEAdF48M1ONWnQb1C+6LiXrKjmqjzPNPWXhu/GzOHTHX2nh8Mo2ZAmBFg0kIodHhciEgUBtcYCAIjGbjQ==
 
 "@floating-ui/core@^1.6.0":
   version "1.6.8"
@@ -2097,7 +2097,7 @@
     retry-axios "^2.6.0"
     uuid "^9.0.0"
 
-"@medusajs/medusa@^1.12.0", "@medusajs/medusa@^1.14.0", "@medusajs/medusa@^1.17.2", "@medusajs/medusa@^1.20.8":
+"@medusajs/medusa@^1.14.0", "@medusajs/medusa@^1.17.2", "@medusajs/medusa@^1.20.8":
   version "1.20.10"
   resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-1.20.10.tgz"
   integrity sha512-dVCFhWFQ2j6PttMepJuZNHwchv1TU44MagmUpA4hcxWum6j8ZXuXM3bDM45+oXTB0htX1lBdV9zHgnIxWVvJTw==
@@ -2293,10 +2293,10 @@
     "@mikro-orm/knex" "5.9.7"
     pg "8.11.3"
 
-"@msgpackr-extract/msgpackr-extract-linux-x64@3.0.3":
+"@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3":
   version "3.0.3"
-  resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-linux-x64/-/msgpackr-extract-linux-x64-3.0.3.tgz"
-  integrity sha512-cvwNfbP07pKUfq1uH+S6KJ7dT9K8WOE4ZiAcsrSes+UY55E/0jLYc+vq+DO7jlmqRb5zAggExKm0H7O/CBaesg==
+  resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-3.0.3.tgz"
+  integrity sha512-QZHtlVgbAdy2zAqNA9Gu1UpIuI8Xvsd1v8ic6B2pZmeFnFcMWiPLfWXh7TVw4eGEZ/C9TH281KwhVoeQUKbyjw==
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"
@@ -4134,15 +4134,10 @@
     "@svgr/plugin-jsx" "8.1.0"
     "@svgr/plugin-svgo" "8.1.0"
 
-"@swc/core-linux-x64-gnu@1.10.1":
+"@swc/core-darwin-arm64@1.10.1":
   version "1.10.1"
-  resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.10.1.tgz"
-  integrity sha512-yyYEwQcObV3AUsC79rSzN9z6kiWxKAVJ6Ntwq2N9YoZqSPYph+4/Am5fM1xEQYf/kb99csj0FgOelomJSobxQA==
-
-"@swc/core-linux-x64-musl@1.10.1":
-  version "1.10.1"
-  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.10.1.tgz"
-  integrity sha512-tcaS43Ydd7Fk7sW5ROpaf2Kq1zR+sI5K0RM+0qYLYYurvsJruj3GhBCaiN3gkzd8m/8wkqNqtVklWaQYSDsyqA==
+  resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.10.1.tgz"
+  integrity sha512-NyELPp8EsVZtxH/mEqvzSyWpfPJ1lugpTQcSlMduZLj1EASLO4sC8wt8hmL1aizRlsbjCX+r0PyL+l0xQ64/6Q==
 
 "@swc/core@^1.0.0", "@swc/core@^1.2.147", "@swc/core@^1.3.61":
   version "1.10.1"
@@ -4419,7 +4414,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^17.0.8", "@types/node@>= 12", "@types/node@>=8.1.0":
+"@types/node@*", "@types/node@^17.0.8", "@types/node@>= 12":
   version "17.0.45"
   resolved "https://registry.npmjs.org/@types/node/-/node-17.0.45.tgz"
   integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
@@ -6868,7 +6863,7 @@ express-session@^1.17.3:
     safe-buffer "5.2.1"
     uid-safe "~2.1.5"
 
-express@^4.17.1, express@^4.17.2, express@^4.17.3, express@^4.18.2:
+express@^4.17.2, express@^4.17.3, express@^4.18.2:
   version "4.21.2"
   resolved "https://registry.npmjs.org/express/-/express-4.21.2.tgz"
   integrity sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==
@@ -9088,38 +9083,12 @@ medusa-core-utils@^1.2.3, medusa-core-utils@1.2.3:
   dependencies:
     awilix "^8.0.0"
 
-medusa-fulfillment-manual@1.1.41:
-  version "1.1.41"
-  resolved "https://registry.npmjs.org/medusa-fulfillment-manual/-/medusa-fulfillment-manual-1.1.41.tgz"
-  integrity sha512-4taGA4LKy+NmclyryGLJ7TsbvitvosB3qMOLXj6LqOEU0VJAeGc7eQBNSwquyzs0bm3owtRD02VwrLeJsUi77g==
-  dependencies:
-    "@babel/plugin-transform-classes" "^7.9.5"
-    "@babel/plugin-transform-instanceof" "^7.8.3"
-    "@babel/runtime" "^7.7.6"
-    express "^4.17.1"
-    medusa-core-utils "^1.2.3"
-
 medusa-interfaces@^1.3.7, medusa-interfaces@1.3.10:
   version "1.3.10"
   resolved "https://registry.npmjs.org/medusa-interfaces/-/medusa-interfaces-1.3.10.tgz"
   integrity sha512-S3J8+W/Wy5zoJML7P5mxGd9gRJTdMaRdpiPAhMeod8MmZGcTKpLRB1Ms8d2+pNDPhmoHJ69SAKaWRxp1w7eCUg==
 
-medusa-payment-manual@1.0.25:
-  version "1.0.25"
-  resolved "https://registry.npmjs.org/medusa-payment-manual/-/medusa-payment-manual-1.0.25.tgz"
-  integrity sha512-TMwAcI9MU3kDbBaY2WydurG2Y3ZCB+MGiRpGiGkhrvPLyzQ2qPAL13sb8cWXyuLWRdyHB1INGSh+WN26z4SHNw==
-
-medusa-payment-stripe@6.0.10:
-  version "6.0.10"
-  resolved "https://registry.npmjs.org/medusa-payment-stripe/-/medusa-payment-stripe-6.0.10.tgz"
-  integrity sha512-Erx492fUcjiIXqObpJm65VVvUaK3O5jXHzh4MQfQb/vZmuRfoBunaSfM2z/xVfYS7mWW8fnban5A2NdaF8QIkw==
-  dependencies:
-    "@medusajs/utils" "^1.11.10"
-    body-parser "^1.19.0"
-    express "^4.17.1"
-    stripe "^11.10.0"
-
-medusa-react@^9.0.0, medusa-react@^9.0.18:
+medusa-react@^9.0.18:
   version "9.0.18"
   resolved "https://registry.npmjs.org/medusa-react/-/medusa-react-9.0.18.tgz"
   integrity sha512-3xSw3MuH7OEX6Tz21Tthev2+1Mk/S1nI6qsqgRqUl4prZTcRFgHXq421hPeqd1RoX2h8SO2Ap1/qObc2da3tCg==
@@ -10512,7 +10481,7 @@ punycode@^2.1.0, punycode@^2.1.1, punycode@^2.3.1:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-qs@^6.10.3, qs@^6.11.0, qs@^6.11.2:
+qs@^6.10.3, qs@^6.11.2:
   version "6.13.1"
   resolved "https://registry.npmjs.org/qs/-/qs-6.13.1.tgz"
   integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==
@@ -11891,14 +11860,6 @@ strip-json-comments@^3.0.1, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
-
-stripe@^11.10.0:
-  version "11.18.0"
-  resolved "https://registry.npmjs.org/stripe/-/stripe-11.18.0.tgz"
-  integrity sha512-OUA32uhNoSoM6wOodyFbV+3IBCoO140uzdXmBArQ0S88D4EbH91xl2v+Ml1sKalcFKUBadHLeHfU/p9AbsOfGw==
-  dependencies:
-    "@types/node" ">=8.1.0"
-    qs "^6.11.0"
 
 style-loader@^3.3.3:
   version "3.3.4"
