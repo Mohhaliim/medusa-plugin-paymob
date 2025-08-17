@@ -1,0 +1,67 @@
+# Source files (TypeScript source should not be published)
+src/
+tsconfig*.json
+
+# Development and testing files
+__tests__/
+**/__tests__/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+jest.config.*
+.nyc_output
+coverage/
+
+# Development dependencies and tools
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts that shouldn't be published
+build/
+.cache/
+.medusa/
+
+# Development environment files
+.env*
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Documentation that's not needed in npm package
+README.md
+*.md
+docs/
+
+# Upload directories (user generated content)
+uploads/
+
+# Temporary files
+temp/
+tmp/
+logs/
+*.log
+
+# Lock files (let consumers manage their own)
+yarn.lock
+package-lock.json
+
+# Development configuration
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Development data
+data/
+
+# Medusa admin build (should be bundled, not source)
+# Keep the actual built admin files in dist/admin/

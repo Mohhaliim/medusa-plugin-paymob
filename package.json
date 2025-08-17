@@ -8,13 +8,23 @@
     "type": "git",
     "url": "https://github.com/Mohhaliim/medusa-plugin-paymob"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "index.js"
+  ],
   "keywords": [
     "plugin",
     "paymob",
     "integration",
     "egypt",
     "v1",
-    "medusa"
+    "medusa",
+    "medusajs",
+    "payment",
+    "payment-processor",
+    "ecommerce"
   ],
   "scripts": {
     "clean": "cross-env ./node_modules/.bin/rimraf dist",
@@ -22,6 +32,9 @@
     "build:server": "cross-env npm run clean && tsc -p tsconfig.server.json",
     "build:admin": "cross-env medusa-admin build",
     "prepare": "cross-env NODE_ENV=production npm run build:server && medusa-admin bundle",
+    "prepublishOnly": "npm run build",
+    "publish:npm": "npm publish",
+    "publish:dry": "npm pack --dry-run",
     "watch": "cross-env tsc --watch",
     "test": "cross-env jest",
     "seed": "cross-env medusa seed -f ./data/seed.json",
